@@ -1,0 +1,13 @@
+test_add_param_demo:
+- ["测试中文", True]
+- ["test", True]
+- ["123456", True]
+- ["测试中文yyyy123456", True]
+
+
+test_login_params:
+- ["admin", "123456", True]
+- ["admin", "1234xxx", False]
+- ["admin", "", False]
+
+
