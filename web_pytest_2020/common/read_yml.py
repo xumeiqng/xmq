@@ -9,6 +9,6 @@ def readyml(filePath):
     print("读取yaml转字典:%s"%data)
     return data
 
-if __name__ == '__main__':
-    a = readyml(r'D:\soft\code\web_pytest_2020\case\testdata.yml')
-    print(a['test_add_param_demo'])
+# if __name__ == '__main__':
+#     a = readyml(r'D:\soft\code\web_pytest_2020\case\testdata.yml')
+#     print(a['test_add_param_demo'])
